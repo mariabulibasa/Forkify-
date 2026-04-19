@@ -9,8 +9,6 @@ import 'core-js/stable';
 import 'regenerator-runtime/runtime';
 import { MODAL_CLOSE_SEC } from './config.js';
 
-// if (module.hot) module.hot.accept();
-
 const controlRecipes = async function () {
   try {
     const id = window.location.hash.slice(1);
